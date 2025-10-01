@@ -1,0 +1,16 @@
+{
+  "name": "product-api",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "dev": "node local.js",
+    "start": "node local.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0"
+  }
+}
